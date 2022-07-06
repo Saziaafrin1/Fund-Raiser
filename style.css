@@ -19,7 +19,7 @@ body{
     text-align: center;
 
    }
-   button{
+   .link{
     width: 180px;
     font-size: 18px;
     padding: 10px 40px;
@@ -28,8 +28,55 @@ body{
     border-radius: 20px;
     
 }
-.link{
+.click{
     text-decoration: none;
     color: white;
+    text-align: center;
     
+}
+.charity{
+    font-size: 15px;
+    text-align: center;
+}
+
+#top{
+    margin-top: 40px;
+}
+
+.today{
+    font-size: 40px;
+    text-align: center;
+    
+
+}
+.amount{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.taka{
+    margin-top:20px ;
+    font-size: 18px;
+    padding: 5px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.effect:hover{
+    color: rgb(204, 30, 59);
+    background-color: pink;
+}
+
+.effect::after{
+
+    position: absolute;
+    transition: 05s;
+}
+form{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.center{
+    text-align: center;
 }
