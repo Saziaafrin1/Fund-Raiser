@@ -80,3 +80,33 @@ form{
 .center{
     text-align: center;
 }
+
+.display{
+    display:flex ;
+    
+    
+    
+}
+.half-width{
+    text-align:justify;
+    width: 100%
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    border: 2px solid;
+    
+}
+
+.pink{
+    background-color: palegoldenrod;
+    font-weight: 700;
+}
+
+.yellow{
+    background-color: paleturquoise;
+    font-weight: 700;
+}
+
+.rose{
+    background-color: lightgrey;
+}
