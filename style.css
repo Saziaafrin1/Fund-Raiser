@@ -109,4 +109,32 @@ form{
 
 .rose{
     background-color: lightgrey;
+
+}
+.sub{
+    background-color:crimson;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+}
+.italic{
+    font-style: italic;
+    color: purple;
+    font-weight: 700;
+    text-align:center;
+    
+}
+
+.purple{
+    font-style:italic;
+    color: purple;
+    font-weight: 700;
+    text-align: center;
+}
+
+.black{
+    background-color: black;
+    margin: 0;
+    padding: 0;
 }
